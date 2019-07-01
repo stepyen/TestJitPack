@@ -12,7 +12,6 @@ import com.alipay.sdk.app.PayTask;
  */
 public class Test {
     public static String test(Activity context) {
-        PayTask alipay = new PayTask(context);
-        return alipay.getVersion().toString();
+        return "123";
     }
 }
